@@ -13,7 +13,7 @@ return [
     ],
 
     'exchange' => [
-        'name' => env('AMQP_EXCHANGE_NAME', 'payment_exchange'),
+        'name' => env('AMQP_EXCHANGE_NAME', 'test_exchange'),
         'type' => env('AMQP_EXCHANGE_TYPE', 'direct')
     ],
 

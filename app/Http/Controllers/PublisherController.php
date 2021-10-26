@@ -9,7 +9,7 @@ class PublisherController extends Controller
 {
     public function publish(Request $request)
     {
-        Messaging::publish('back_key', $request->all());
+        Messaging::publish('test_queue', $request->all());
         return 'Success';
     }
 }
