@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9f851b12ad922ea9e79d341cc3c0114e",
+    "content-hash": "d5feabfaf0694a636022885df4a872ab",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5516,10 +5516,16 @@
         {
             "name": "e4/messaging",
             "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/FrederST/test-laravel-package.git",
+                "reference": "9b8188dca266c371f93a1b903b910ff07f860846"
+            },
             "dist": {
-                "type": "path",
-                "url": "../../package/message",
-                "reference": "1196c7a0e4cfbafa283b047556fe04eeb00c735d"
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/FrederST%2Ftest-laravel-package/repository/archive.zip?sha=9b8188dca266c371f93a1b903b910ff07f860846",
+                "reference": "9b8188dca266c371f93a1b903b910ff07f860846",
+                "shasum": ""
             },
             "require": {
                 "php": ">=7.4",
@@ -5528,6 +5534,7 @@
             "require-dev": {
                 "orchestra/testbench": "^6.21"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -5553,10 +5560,7 @@
                 }
             ],
             "description": "RabbitMQ Message",
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
+            "time": "2021-10-27T00:05:13+00:00"
         },
         {
             "name": "facade/flare-client-php",

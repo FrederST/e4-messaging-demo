@@ -62,8 +62,8 @@
     "prefer-stable": true,
     "repositories": {
         "e4/messaging": {
-            "type": "path",
-            "url": "../../package/message",
+            "type": "gitlab",
+            "url": "https://gitlab.com/FrederST/test-laravel-package",
             "options": {
                 "symlink": true
             }
