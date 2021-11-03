@@ -2,7 +2,10 @@
     "name": "laravel/laravel",
     "type": "project",
     "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "keywords": [
+        "framework",
+        "laravel"
+    ],
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
@@ -62,8 +65,8 @@
     "prefer-stable": true,
     "repositories": {
         "e4/messaging": {
-            "type": "gitlab",
-            "url": "https://gitlab.com/FrederST/test-laravel-package",
+            "type": "path",
+            "url": "C:/Users/frede/Documents/GitHub/escuela-php-messaging",
             "options": {
                 "symlink": true
             }
