@@ -8,9 +8,9 @@ use Illuminate\Http\Request;
 
 class PublisherController extends Controller
 {
-    public function publish(Request $request, MessageBroker $messageBroker)
+    public function publish(Request $request)
     {
-        $messageBroker->publish('genare::report', '', $request->all());
+        Messaging::publish('commerce::created', '', $request->all());
         return 'Success';
     }
 }
